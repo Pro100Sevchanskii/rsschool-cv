@@ -49,7 +49,325 @@
     <div class="code_example">
         <h2 class="title">Code example</h2>
         <pre><code>
+index.html 
 
+
+&lt;!DOCTYPE html&gt;
+&lt;html lang="ru"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Family bakery&lt;/title&gt;
+    &lt;link rel="stylesheet" href="./style.css"&gt;
+    &lt;link rel="icon" href="/Pictures/logo.svg" type="image/x-icon"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;header class="header container"&gt;
+        &lt;a href="#about"&gt;
+            &lt;img src="./Pictures/logo-light.svg" alt="logo-light"&gt;
+        &lt;/a&gt;
+        &lt;div class="header-menu">
+            &lt;ul class="header-menu-list">
+                &lt;li>
+                    &lt;a href="#about">О нас&lt;/a>
+                &lt;/li>
+                &lt;li>
+                    &lt;a href="#menu">Меню&lt;/a>
+                &lt;/li>
+                &lt;li>
+                    &lt;a href="#order">Заказы&lt;/a>
+                &lt;/li>
+            &lt;/ul>
+            &lt;div>
+                +375(**)***-**-**
+            &lt;/div>
+        &lt;/div>
+    &lt;/header>
+    &lt;section class="hero container">
+        &lt;a name="about">&lt;/a>
+        &lt;div class="hero-content">
+            &lt;h1 class="hero-title">Домашняя выпечка с душой и любовью&lt;/h1>
+            &lt;p class="hero-description">Свежие булочки из натуральных ингредиентов с бесплатной доставкой прямо к вашему
+                столу&lt;/p>
+            &lt;button class="btn btn-about">Узнать больше&lt;/button>
+        &lt;/div>
+        &lt;div class="hero-img">
+            &lt;img src="./Pictures/hero.png" alt="hero-bakery">
+        &lt;/div>
+    &lt;/section>
+    &lt;section class="menu container">
+        &lt;a name="menu">&lt;/a>
+        &lt;h2 class="menu-title">Наше меню&lt;/h2>
+        &lt;div class="menu-content">
+            &lt;div class="menu-item">
+                &lt;img src="./Pictures/menu1.png" alt="img-menu-item">
+                &lt;div class="menu-inem-content">
+                    &lt;h3 class="title-menu-item">Кекс шоколадный&lt;/h3>
+                    &lt;p class="description-menu-item">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis exercitationem eveniet libero
+                        sapiente natus ratione laudantium. Quam illum eaque quia ipsam aliquid, architecto deleniti
+                        dicta ipsum provident eos beatae voluptas!
+                    &lt;/p>
+                &lt;/div>
+            &lt;/div>
+            &lt;div class="menu-item">
+                &lt;img src="./Pictures/menu2.png" alt="img-menu-item">
+                &lt;div class="menu-inem-content">
+                    &lt;h3 class="title-menu-item">Хлеб домашний&lt;/h3>
+                    &lt;p class="description-menu-item">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis exercitationem eveniet libero
+                        sapiente natus ratione laudantium. Quam illum eaque quia ipsam aliquid, architecto deleniti
+                        dicta ipsum provident eos beatae voluptas!
+                    &lt;/p>
+                &lt;/div>
+            &lt;/div>
+            &lt;div class="menu-item">
+                &lt;img src="./Pictures/menu3.png" alt="img-menu-item">
+                &lt;div class="menu-inem-content">
+                    &lt;h3 class="title-menu-item">Булочка с корицей&lt;/h3>
+                    &lt;p class="description-menu-item">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis exercitationem eveniet libero
+                        sapiente natus ratione laudantium. Quam illum eaque quia ipsam aliquid, architecto deleniti
+                        dicta ipsum provident eos beatae voluptas!
+                    &lt;/p>
+                &lt;/div>
+            &lt;/div>
+        &lt;/div>
+        &lt;button class="btn btn-order">Заказать&lt;/button>
+    &lt;/section>
+    &lt;section class="order container">
+        &lt;a name="order">&lt;/a>
+        &lt;div class="order-content">
+            &lt;h2 class="title-order">Приём заказов&lt;/h2>
+            &lt;p>Оставте ваши контактные данные и мы перезвоним вам для согласования деталей заказа&lt;/p>
+        &lt;/div>
+        &lt;div class="order-content">
+            &lt;form action="url" class="form">
+                &lt;input type="text" placeholder="Ваше имя" name="name" class="inp-form">
+                &lt;input type="tel" placeholder="Номер телефона" name="phone" class="inp-form">
+                &lt;input type="email" placeholder="E-mail" name="email" class="inp-form">
+                &lt;input type="submit" value="Отправить" class="btn btn-form">
+            &lt;/form>
+            &lt;div class="agree-cook">
+                &lt;input type="checkbox" name="data" class="check-agree">
+                &lt;label for="data">Согласен(а) на обработку персональных данных&lt;/label>
+            &lt;/div>
+        &lt;/div>
+    &lt;/section>
+    &lt;footer class="footer container">
+        &lt;img src="./Pictures/logo-dark.svg" alt="logo-dark">
+        &lt;div class="social-net">
+            &lt;a href="url-inst">
+                &lt;img src="./Pictures/instagram.svg" alt="inst">
+            &lt;/a>
+            &lt;a href="url-facebook">
+                &lt;img src="./Pictures/facebook.svg" alt="facebook">
+            &lt;/a>
+            &lt;a href="url-twit">
+                &lt;img src="./Pictures/twitter.png" alt="twitter">
+            &lt;/a>
+        &lt;/div>
+    &lt;/footer>
+&lt;/body>
+&lt;script src="./script.js">&lt;/script>
+&lt;/html>
+
+
+style.css
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@600&family=Poppins&display=swap');
+:root {
+    --color-accent: #EE9227;
+    --color-light: #f5f5f5;
+    --color-dark: #333333;
+    --handller-font: "Montserrat", sans-serif;
+    --main-font: "Inter", sans-serif;
+    --menu-font: "Poppins", sans-serif;
+}
+body {
+    margin: 0;
+    font-family: var(--main-font);
+    color: var(--color-dark);
+    background-color: var(--color-light);
+}
+h1,
+h2 {
+    font-family: var(--handller-font);
+    color: var(--color-accent);
+    font-size: 54px;
+}
+a {
+    text-decoration: none;
+    color: var(--color-dark);
+}
+ul {
+    list-style: none;
+    padding: 0px;
+}
+.container {
+    padding: 0% 7%;
+}
+.btn {
+    background-color: var(--color-accent);
+    color: var(--color-light);
+    font-size: 24px;
+    padding: 15px 55px;
+    border: none;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+}
+.header,
+.footer {
+    min-height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-menu {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+}
+.header-menu-list {
+    display: flex;
+    padding: 0px;
+    width: 50%;
+    justify-content: space-between;
+}
+.hero,
+.menu,
+.order {
+    min-height: 630px;
+}
+.hero {
+    display: flex;
+    align-items: center;
+}
+.hero-content {
+    position: relative;
+    float: left;
+    z-index: 3;
+}
+.hero-description {
+    width: 55%;
+    margin: 50px 0px;
+}
+.hero-title {
+    width: 70%;
+}
+.hero-img img {
+    width: 100%;
+}
+.her-img {
+    width: 55%;
+    position: absolute;
+    right: 0.5%;
+    z-index: 1;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 55px;
+}
+.menu-item {
+    width: 32%;
+    border-radius: 26px;
+    border: 1px solid var(--color-accent);
+}
+.menu-item img {
+    width: 100%;
+    border-radius: 26px 26px 0px 0px;
+}
+.menu-item-content {
+    padding: 10px 32px;
+}
+.title-menu-item {
+    font-size: 16px;
+    color: var(--color-accent);
+}
+.description-menu-item {
+    font-size: 14px;
+}
+.menu-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 55px;
+}
+.order {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+.form {
+    margin: 55px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.inp-form {
+    padding: 9px;
+    outline: none;
+    font-size: 16px;
+    background-color: var(--color-light);
+    color: #8E8E8E;
+    min-height: 30px;
+    border: 1px solid;
+    border-color: var(--color-light) var(--color-light) var(--color-accent);
+    margin-bottom: 50px;
+}
+.order-content {
+    width: 45%;
+}
+.aree-cook {
+    margin-top: 25px;
+}
+.footer {
+    background-color: #584B3C;
+}
+.social-net {
+    display: flex;
+    align-items: center;
+    width: 13%;
+    justify-content: space-between;
+}
+
+
+script.js
+
+
+let btnOrder = document.querySelector('.btn-order')
+let btnAbout = document.querySelector('.btn-about')
+let btnForm = document.querySelector('.btn-form')
+let checkbox = document.querySelector('.check-agree')
+let agree = 0
+btnAbout.addEventListener('click', () => {
+    alert('Вся информация доступна по номеру телефона')
+})
+btnOrder.addEventListener('click', () => {
+    alert('Чтобы оставить заказ заполните форму')
+})
+checkbox.addEventListener('click', () => {
+    if (agree == 0) {
+        agree = 1
+    }
+    else {
+        agree = 0
+    }
+})
+btnForm.addEventListener('click', () => {
+    if (agree == 1) {
+        alert('Ваши контактные данные приняты, ожидайте звонка')
+    }
+    else {
+        alert('Вы не дали согласие на обработку персональных данных')
+    }
+})
         </code></pre>
     </div>
     <section class="my_information">
