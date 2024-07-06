@@ -4,401 +4,511 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>CV</title>
 </head>
 
 <body>
-    <header class="name">
-        <h1>Vsevolod Adamovich</h1>
+    <header class="menu">
+        <ul>
+            <li>
+                <a href="#contacts">Contacts</a>
+            </li>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#languages">Languages</a>
+            </li>
+            <li>
+                <a href="#code">Code</a>
+            </li>
+        </ul>
     </header>
-    <section class="contacts">
-        <h2 class="title">Contact information</h2>
-        <p>phone number: +375293271731</p>
-        <p>email: sas4sevaadamovich@gmail.com</p>
-        <p><a href="https://t.me/Kranut">telegram</a></p>
-        <p><a href="www.linkedin.com/in/vsevolod-adamovich-58408925b">LinkedIn</a></p>
-    </section>
-    <div class="picture">
-        <img src="./1671381101389.jpg" alt="Error picture">
-    </div>
-    <section class="my_information">
-        <div class="about_me">
-            <h2 class="title">About me</h2>
-            <p>I am 19 years old, I live in Belarus, I am a 3rd year student
-                at the Belarusian State University at the Faculty of Radiophysics and Computer Technology.
-                In the first half of the 1st year I started to learn C++,
-                at the beginning of the second year I started learning frontend,
-                in the middle of the second year I studied a little ux/ui design and worked in Figma,
-                I studied a little react.js, at the end of the second year I learned a little python.
-                I play volleyball for the faculty, I like to play football, I practiced judo,
-                basketball (I went to regional competitions), and I graduated from music school
-                as an external student (specializing in accordion). In general,
-                I am a very active and quite sociable person who wants to connect his life with programming.</p>
-        </div>
-        <div class="my_skills">
-            <h2 class="title">My skills</h2>
-            <ul>
-                <li>C++</li>
-                <li>Html, CSS, JS</li>
-                <li>FIgma</li>
-                <li>A litle Python</li>
-                <li>A litle React.js</li>
-            </ul>
-        </div>
-    </section>
-    <div class="code_example">
-        <h2 class="title">Code example</h2>
-        <pre><code>
-index.html 
+    <main class="my_information">
+        <section class="my_left_information">
+            <div class="name">
+                <h1 class="name">Vsevolod Adamovich</h1>
+            </div>
+            <div class="picture">
+                <img src="./1671381101389.jpg" alt="Error picture" class="portret">
+            </div>
+            <div class="contacts">
+                <a id="contacts"></a>
+                <h2 class="title">Contact information</h2>
+                <ul class="content">
+                    <li>
+                        <p>phone number: +375293271731</p>
+                    </li>
+                    <li>
+                        <p>email: sas4sevaadamovich@gmail.com</p>
+                    </li>
+                    <li>
+                        <p><a href="https://t.me/Kranut">telegram</a></p>
+                    </li>
+                    <li>
+                        <p><a href="www.linkedin.com/in/vsevolod-adamovich-58408925b">LinkedIn</a></p>
+                    </li>
+                </ul>
+            </div>
+            <div class="about_me">
+                <a id="about"></a>
+                <h2 class="title">About me</h2>
+                <p class="content">I am 19 years old, I live in Belarus, I am a 3rd year student
+                    at the Belarusian State University at the Faculty of Radiophysics and Computer Technology.
+                    In the first half of the 1st year I started to learn C++,
+                    at the beginning of the second year I started learning frontend,
+                    in the middle of the second year I studied a little ux/ui design and worked in Figma,
+                    I studied a little react.js, at the end of the second year I learned a little python.
+                    I play volleyball for the faculty, I like to play football, I practiced judo,
+                    basketball (I went to regional competitions), and I graduated from music school
+                    as an external student (specializing in accordion). In general,
+                    I am a very active and quite sociable person who wants to connect his life with programming.</p>
+            </div>
+            <div class="my_skills">
+                <a id="skills"></a>
+                <h2 class="title">My skills</h2>
+                <ul class="content">
+                    <li>C++</li>
+                    <li>Html, CSS, JS</li>
+                    <li>Figma</li>
+                    <li>A litle Python</li>
+                    <li>A litle React.js</li>
+                </ul>
+            </div>
+            <div class="experience">
+                <a id="experience"></a>
+                <h2 class="title">Experience</h2>
+                <ul class="content">
+                    <li>
+                        <a href="https://pro100sevchanskii.github.io/My_study_projects/index.html">Burger</a>
+                    </li>
+                    <li>
+                        <a href="https://pro100sevchanskii.github.io/My_study_projects/index_innodom.html">Family
+                            Bakery</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="education">
+                <a id="education"></a>
+                <h2 class="title">Education</h2>
+                <ol class="content">
+                    <li>
+                        Belarus State University Radiophysics and Computer Technology faculty (in process)
+                    </li>
+                    <li>
+                        <a href="https://stepik.org/cert/2191700?lang=en">Stepik course with distinction "HTML CSS JS"
+                            (complited)</a>
+                    </li>
+                    <li>
+                        <a href="https://stepik.org/cert/2137662?lang=en">Stepik course with distinction "Introduction
+                            to Programming (C++)" (complited)</a>
+                    </li>
+                    <li>
+                        Stepik course ""Generation Python": a course for beginners" (in process)
+                    </li>
+                </ol>
+            </div>
+            <div class="languages">
+                <a id="languages"></a>
+                <h2 class="title">Languages</h2>
+                <ul class="content">
+                    <li>belarusian (native)</li>
+                    <li>russian (native)</li>
+                    <li>english (A2)</li>
+                </ul>
+            </div>
+        </section>
 
-
-&lt;!DOCTYPE html&gt;
-&lt;html lang="ru"&gt;
-&lt;head&gt;
-    &lt;meta charset="UTF-8"&gt;
-    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-    &lt;title&gt;Family bakery&lt;/title&gt;
-    &lt;link rel="stylesheet" href="./style.css"&gt;
-    &lt;link rel="icon" href="/Pictures/logo.svg" type="image/x-icon"&gt;
-&lt;/head&gt;
-&lt;body&gt;
-    &lt;header class="header container"&gt;
-        &lt;a href="#about"&gt;
-            &lt;img src="./Pictures/logo-light.svg" alt="logo-light"&gt;
-        &lt;/a&gt;
-        &lt;div class="header-menu">
-            &lt;ul class="header-menu-list">
-                &lt;li>
-                    &lt;a href="#about">О нас&lt;/a>
-                &lt;/li>
-                &lt;li>
-                    &lt;a href="#menu">Меню&lt;/a>
-                &lt;/li>
-                &lt;li>
-                    &lt;a href="#order">Заказы&lt;/a>
-                &lt;/li>
-            &lt;/ul>
-            &lt;div>
-                +375(**)***-**-**
-            &lt;/div>
-        &lt;/div>
-    &lt;/header>
-    &lt;section class="hero container">
-        &lt;a name="about">&lt;/a>
-        &lt;div class="hero-content">
-            &lt;h1 class="hero-title">Домашняя выпечка с душой и любовью&lt;/h1>
-            &lt;p class="hero-description">Свежие булочки из натуральных ингредиентов с бесплатной доставкой прямо к вашему
-                столу&lt;/p>
-            &lt;button class="btn btn-about">Узнать больше&lt;/button>
-        &lt;/div>
-        &lt;div class="hero-img">
-            &lt;img src="./Pictures/hero.png" alt="hero-bakery">
-        &lt;/div>
-    &lt;/section>
-    &lt;section class="menu container">
-        &lt;a name="menu">&lt;/a>
-        &lt;h2 class="menu-title">Наше меню&lt;/h2>
-        &lt;div class="menu-content">
-            &lt;div class="menu-item">
-                &lt;img src="./Pictures/menu1.png" alt="img-menu-item">
-                &lt;div class="menu-inem-content">
-                    &lt;h3 class="title-menu-item">Кекс шоколадный&lt;/h3>
-                    &lt;p class="description-menu-item">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis exercitationem eveniet libero
-                        sapiente natus ratione laudantium. Quam illum eaque quia ipsam aliquid, architecto deleniti
-                        dicta ipsum provident eos beatae voluptas!
-                    &lt;/p>
-                &lt;/div>
-            &lt;/div>
-            &lt;div class="menu-item">
-                &lt;img src="./Pictures/menu2.png" alt="img-menu-item">
-                &lt;div class="menu-inem-content">
-                    &lt;h3 class="title-menu-item">Хлеб домашний&lt;/h3>
-                    &lt;p class="description-menu-item">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis exercitationem eveniet libero
-                        sapiente natus ratione laudantium. Quam illum eaque quia ipsam aliquid, architecto deleniti
-                        dicta ipsum provident eos beatae voluptas!
-                    &lt;/p>
-                &lt;/div>
-            &lt;/div>
-            &lt;div class="menu-item">
-                &lt;img src="./Pictures/menu3.png" alt="img-menu-item">
-                &lt;div class="menu-inem-content">
-                    &lt;h3 class="title-menu-item">Булочка с корицей&lt;/h3>
-                    &lt;p class="description-menu-item">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis exercitationem eveniet libero
-                        sapiente natus ratione laudantium. Quam illum eaque quia ipsam aliquid, architecto deleniti
-                        dicta ipsum provident eos beatae voluptas!
-                    &lt;/p>
-                &lt;/div>
-            &lt;/div>
-        &lt;/div>
-        &lt;button class="btn btn-order">Заказать&lt;/button>
-    &lt;/section>
-    &lt;section class="order container">
-        &lt;a name="order">&lt;/a>
-        &lt;div class="order-content">
-            &lt;h2 class="title-order">Приём заказов&lt;/h2>
-            &lt;p>Оставте ваши контактные данные и мы перезвоним вам для согласования деталей заказа&lt;/p>
-        &lt;/div>
-        &lt;div class="order-content">
-            &lt;form action="url" class="form">
-                &lt;input type="text" placeholder="Ваше имя" name="name" class="inp-form">
-                &lt;input type="tel" placeholder="Номер телефона" name="phone" class="inp-form">
-                &lt;input type="email" placeholder="E-mail" name="email" class="inp-form">
-                &lt;input type="submit" value="Отправить" class="btn btn-form">
-            &lt;/form>
-            &lt;div class="agree-cook">
-                &lt;input type="checkbox" name="data" class="check-agree">
-                &lt;label for="data">Согласен(а) на обработку персональных данных&lt;/label>
-            &lt;/div>
-        &lt;/div>
-    &lt;/section>
-    &lt;footer class="footer container">
-        &lt;img src="./Pictures/logo-dark.svg" alt="logo-dark">
-        &lt;div class="social-net">
-            &lt;a href="url-inst">
-                &lt;img src="./Pictures/instagram.svg" alt="inst">
-            &lt;/a>
-            &lt;a href="url-facebook">
-                &lt;img src="./Pictures/facebook.svg" alt="facebook">
-            &lt;/a>
-            &lt;a href="url-twit">
-                &lt;img src="./Pictures/twitter.png" alt="twitter">
-            &lt;/a>
-        &lt;/div>
-    &lt;/footer>
-&lt;/body>
-&lt;script src="./script.js">&lt;/script>
-&lt;/html>
-
-
-style.css
-
-
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@600&family=Poppins&display=swap');
-:root {
-    --color-accent: #EE9227;
-    --color-light: #f5f5f5;
-    --color-dark: #333333;
-    --handller-font: "Montserrat", sans-serif;
-    --main-font: "Inter", sans-serif;
-    --menu-font: "Poppins", sans-serif;
-}
-body {
-    margin: 0;
-    font-family: var(--main-font);
-    color: var(--color-dark);
-    background-color: var(--color-light);
-}
-h1,
-h2 {
-    font-family: var(--handller-font);
-    color: var(--color-accent);
-    font-size: 54px;
-}
-a {
-    text-decoration: none;
-    color: var(--color-dark);
-}
-ul {
-    list-style: none;
-    padding: 0px;
-}
-.container {
-    padding: 0% 7%;
-}
-.btn {
-    background-color: var(--color-accent);
-    color: var(--color-light);
-    font-size: 24px;
-    padding: 15px 55px;
-    border: none;
-    border-radius: 16px;
-    display: flex;
-    justify-content: center;
-}
-.header,
-.footer {
-    min-height: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.header-menu {
-    display: flex;
-    align-items: center;
-    width: 50%;
-    justify-content: space-between;
-}
-.header-menu-list {
-    display: flex;
-    padding: 0px;
-    width: 50%;
-    justify-content: space-between;
-}
-.hero,
-.menu,
-.order {
-    min-height: 630px;
-}
-.hero {
-    display: flex;
-    align-items: center;
-}
-.hero-content {
-    position: relative;
-    float: left;
-    z-index: 3;
-}
-.hero-description {
-    width: 55%;
-    margin: 50px 0px;
-}
-.hero-title {
-    width: 70%;
-}
-.hero-img img {
-    width: 100%;
-}
-.her-img {
-    width: 55%;
-    position: absolute;
-    right: 0.5%;
-    z-index: 1;
-}
-.menu {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
-    margin-bottom: 55px;
-}
-.menu-item {
-    width: 32%;
-    border-radius: 26px;
-    border: 1px solid var(--color-accent);
-}
-.menu-item img {
-    width: 100%;
-    border-radius: 26px 26px 0px 0px;
-}
-.menu-item-content {
-    padding: 10px 32px;
-}
-.title-menu-item {
-    font-size: 16px;
-    color: var(--color-accent);
-}
-.description-menu-item {
-    font-size: 14px;
-}
-.menu-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 55px;
-}
-.order {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    padding-top: 60px;
-}
-.form {
-    margin: 55px 0px;
-    display: flex;
-    flex-direction: column;
-}
-.inp-form {
-    padding: 9px;
-    outline: none;
-    font-size: 16px;
-    background-color: var(--color-light);
-    color: #8E8E8E;
-    min-height: 30px;
-    border: 1px solid;
-    border-color: var(--color-light) var(--color-light) var(--color-accent);
-    margin-bottom: 50px;
-}
-.order-content {
-    width: 45%;
-}
-.aree-cook {
-    margin-top: 25px;
-}
-.footer {
-    background-color: #584B3C;
-}
-.social-net {
-    display: flex;
-    align-items: center;
-    width: 13%;
-    justify-content: space-between;
-}
-
-
-script.js
-
-
-let btnOrder = document.querySelector('.btn-order')
-let btnAbout = document.querySelector('.btn-about')
-let btnForm = document.querySelector('.btn-form')
-let checkbox = document.querySelector('.check-agree')
-let agree = 0
-btnAbout.addEventListener('click', () => {
-    alert('Вся информация доступна по номеру телефона')
-})
-btnOrder.addEventListener('click', () => {
-    alert('Чтобы оставить заказ заполните форму')
-})
-checkbox.addEventListener('click', () => {
-    if (agree == 0) {
-        agree = 1
-    }
-    else {
-        agree = 0
-    }
-})
-btnForm.addEventListener('click', () => {
-    if (agree == 1) {
-        alert('Ваши контактные данные приняты, ожидайте звонка')
-    }
-    else {
-        alert('Вы не дали согласие на обработку персональных данных')
-    }
-})
-        </code></pre>
-    </div>
-    <section class="my_information">
-        <div class="experience">
-            <h2 class="title">Experience</h2>
-            <p>None</p>
-        </div>
-        <div class="education">
-            <h2 class="title">Education</h2>
-            <ol>
-                <li>Belarus State University Radiophysics and Computer Technology faculty (in process)</li>
+        <section class="my_code_information">
+            <a id="code"></a>
+            <h2 class="title">Code example</h2>
+            <ul class="content">
                 <li>
-                    <a href="https://stepik.org/cert/2191700?lang=en">Stepik course with distinction "HTML CSS JS"
-                        (complited)</a>
+                    <a href="#index">index.html</a>
                 </li>
                 <li>
-                    <a href="https://stepik.org/cert/2137662?lang=en">Stepik course with distinction "Introduction to
-                        Programming (C++)" (complited)</a>
+                    <a href="#style">style.css</a>
                 </li>
-                <li>Stepik course ""Generation Python": a course for beginners" (in process)</li>
-            </ol>
-        </div>
-        <div class="languages">
-            <h2 class="title">Languages</h2>
-            <ul>
-                <li>belarusian (native)</li>
-                <li>russian (native)</li>
-                <li>english (A2)</li>
+                <li>
+                    <a href="#script">script.js</a>
+                </li>
             </ul>
-        </div>
-    </section>
+            <a id="index"></a>
+            <h3>index.html</h3>
+            <pre class="content example"><code>
+                &lt;!DOCTYPE html&gt;
+                &lt;html lang="ru"&gt;
+                &lt;head&gt;
+                    &lt;meta charset="UTF-8"&gt;
+                    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                    &lt;title&gt;Family bakery&lt;/title&gt;
+                    &lt;link rel="stylesheet" href="./style.css"&gt;
+                    &lt;link rel="icon" href="/Pictures/logo.svg" type="image/x-icon"&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;header class="header container"&gt;
+                        &lt;a href="#about"&gt;
+                            &lt;img src="./Pictures/logo-light.svg" alt="logo-light"&gt;
+                        &lt;/a&gt;
+                        &lt;div class="header-menu">
+                            &lt;ul class="header-menu-list">
+                                &lt;li>
+                                    &lt;a href="#about">О нас&lt;/a>
+                                &lt;/li>
+                                &lt;li>
+                                    &lt;a href="#menu">Меню&lt;/a>
+                                &lt;/li>
+                                &lt;li>
+                                    &lt;a href="#order">Заказы&lt;/a>
+                                &lt;/li>
+                            &lt;/ul>
+                            &lt;div>
+                                +375(**)***-**-**
+                            &lt;/div>
+                        &lt;/div>
+                    &lt;/header>
+                    &lt;section class="hero container">
+                        &lt;a name="about">&lt;/a>
+                        &lt;div class="hero-content">
+                            &lt;h1 class="hero-title">Домашняя выпечка с душой и любовью&lt;/h1>
+                            &lt;p class="hero-description">Свежие булочки из натуральных ингредиентов с 
+                            бесплатной доставкой прямо к вашему столу&lt;/p>
+                            &lt;button class="btn btn-about">Узнать больше&lt;/button>
+                        &lt;/div>
+                        &lt;div class="hero-img">
+                            &lt;img src="./Pictures/hero.png" alt="hero-bakery">
+                        &lt;/div>
+                    &lt;/section>
+                    &lt;section class="menu container">
+                        &lt;a name="menu">&lt;/a>
+                        &lt;h2 class="menu-title">Наше меню&lt;/h2>
+                        &lt;div class="menu-content">
+                            &lt;div class="menu-item">
+                                &lt;img src="./Pictures/menu1.png" alt="img-menu-item">
+                                &lt;div class="menu-inem-content">
+                                    &lt;h3 class="title-menu-item">Кекс шоколадный&lt;/h3>
+                                    &lt;p class="description-menu-item">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis 
+                                        exercitationem eveniet libero sapiente natus ratione laudantium. 
+                                        Quam illum eaque quia ipsam aliquid, architecto deleniti dicta 
+                                        ipsum provident eos beatae voluptas!
+                                    &lt;/p>
+                                &lt;/div>
+                            &lt;/div>
+                            &lt;div class="menu-item">
+                                &lt;img src="./Pictures/menu2.png" alt="img-menu-item">
+                                &lt;div class="menu-inem-content">
+                                    &lt;h3 class="title-menu-item">Хлеб домашний&lt;/h3>
+                                    &lt;p class="description-menu-item">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis 
+                                        exercitationem eveniet libero sapiente natus ratione laudantium. 
+                                        Quam illum eaque quia ipsam aliquid, architecto deleniti dicta 
+                                        ipsum provident eos beatae voluptas!
+                                    &lt;/p>
+                                &lt;/div>
+                            &lt;/div>
+                            &lt;div class="menu-item">
+                                &lt;img src="./Pictures/menu3.png" alt="img-menu-item">
+                                &lt;div class="menu-inem-content">
+                                    &lt;h3 class="title-menu-item">Булочка с корицей&lt;/h3>
+                                    &lt;p class="description-menu-item">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis 
+                                        exercitationem eveniet libero sapiente natus ratione laudantium. 
+                                        Quam illum eaque quia ipsam aliquid, architecto deleniti dicta 
+                                        ipsum provident eos beatae voluptas!
+                                    &lt;/p>
+                                &lt;/div>
+                            &lt;/div>
+                        &lt;/div>
+                        &lt;button class="btn btn-order">Заказать&lt;/button>
+                    &lt;/section>
+                    &lt;section class="order container">
+                        &lt;a name="order">&lt;/a>
+                        &lt;div class="order-content">
+                            &lt;h2 class="title-order">Приём заказов&lt;/h2>
+                            &lt;p>Оставте ваши контактные данные и мы перезвоним вам для согласования деталей 
+                            заказа&lt;/p>
+                        &lt;/div>
+                        &lt;div class="order-content">
+                            &lt;form action="url" class="form">
+                                &lt;input type="text" placeholder="Ваше имя" name="name" class="inp-form">
+                                &lt;input type="tel" placeholder="Номер телефона" name="phone" 
+                                class="inp-form">
+                                &lt;input type="email" placeholder="E-mail" name="email" class="inp-form">
+                                &lt;input type="submit" value="Отправить" class="btn btn-form">
+                            &lt;/form>
+                            &lt;div class="agree-cook">
+                                &lt;input type="checkbox" name="data" class="check-agree">
+                                &lt;label for="data">Согласен(а) на обработку персональных данных&lt;/label>
+                            &lt;/div>
+                        &lt;/div>
+                    &lt;/section>
+                    &lt;footer class="footer container">
+                        &lt;img src="./Pictures/logo-dark.svg" alt="logo-dark">
+                        &lt;div class="social-net">
+                            &lt;a href="url-inst">
+                                &lt;img src="./Pictures/instagram.svg" alt="inst">
+                            &lt;/a>
+                            &lt;a href="url-facebook">
+                                &lt;img src="./Pictures/facebook.svg" alt="facebook">
+                            &lt;/a>
+                            &lt;a href="url-twit">
+                                &lt;img src="./Pictures/twitter.png" alt="twitter">
+                            &lt;/a>
+                        &lt;/div>
+                    &lt;/footer>
+                &lt;/body>
+                &lt;script src="./script.js">&lt;/script>
+                &lt;/html>
+            </code></pre>
+            <a id="style"></a>
+            <h3>style.css</h3>
+            <pre class="content example"><code>
+                @import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@600&
+                family=Poppins&display=swap');
+
+                :root {
+                    --color-accent: #EE9227;
+                    --color-light: #f5f5f5;
+                    --color-dark: #333333;
+                    --handller-font: "Montserrat", sans-serif;
+                    --main-font: "Inter", sans-serif;
+                    --menu-font: "Poppins", sans-serif;
+                }
+                
+                body {
+                    margin: 0;
+                    font-family: var(--main-font);
+                    color: var(--color-dark);
+                    background-color: var(--color-light);
+                }
+                
+                h1, h2 {
+                    font-family: var(--handller-font);
+                    color: var(--color-accent);
+                    font-size: 54px;
+                }
+                
+                a {
+                    text-decoration: none;
+                    color: var(--color-dark);
+                }
+                
+                ul {
+                    list-style: none;
+                    padding: 0px;
+                
+                }
+                
+                .container {
+                    padding: 0% 7%;
+                }
+                
+                .btn {
+                    background-color: var(--color-accent);
+                    color: var(--color-light);
+                    font-size: 24px;
+                    padding: 15px 55px;
+                    border: none;
+                    border-radius: 16px;
+                
+                    display: flex;
+                    justify-content: center;
+                }
+                
+                .header,
+                .footer {
+                    min-height: 90px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                }
+                
+                .header-menu {
+                    display: flex;
+                    align-items: center;
+                    width: 50%;
+                    justify-content: space-between;
+                }
+                
+                .header-menu-list {
+                    display: flex;
+                    padding: 0px;
+                    width: 50%;
+                    justify-content: space-between;
+                }
+                
+                .hero,
+                .menu,
+                .order {
+                    min-height: 630px;
+                }
+                
+                .hero {
+                    display: flex;
+                    align-items: center;
+                }
+                
+                .hero-content {
+                    position: relative;
+                    float: left;
+                    z-index: 3;
+                }
+                
+                .hero-description {
+                    width: 55%;
+                    margin: 50px 0px;
+                }
+                
+                .hero-title {
+                    width: 70%;
+                }
+                
+                .hero-img img {
+                    width: 100%;
+                }
+                
+                .her-img {
+                    width: 55%;
+                    position: absolute;
+                    right: 0.5%;
+                    z-index: 1;
+                }
+                
+                .menu {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    flex-direction: column;
+                    margin-bottom: 55px;
+                }
+                
+                .menu-item {
+                    width: 32%;
+                    border-radius: 26px;
+                    border: 1px solid var(--color-accent);
+                }
+                
+                .menu-item img {
+                    width: 100%;
+                    border-radius: 26px 26px 0px 0px;
+                }
+                
+                .menu-item-content {
+                    padding: 10px 32px;
+                }
+                
+                .title-menu-item {
+                    font-size: 16px;
+                    color: var(--color-accent);
+                }
+                
+                .description-menu-item {
+                    font-size: 14px;
+                }
+                
+                .menu-content {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-bottom: 55px;
+                }
+                
+                .order {
+                    display: flex;
+                    align-items: flex-start;
+                    justify-content: space-between;
+                    padding-top: 60px;
+                }
+                
+                .form {
+                    margin: 55px 0px;
+                    display: flex;
+                    flex-direction: column;
+                }
+                
+                .inp-form {
+                    padding: 9px;
+                    outline: none;
+                    font-size: 16px;
+                    background-color: var(--color-light);
+                    color: #8E8E8E;
+                    min-height: 30px;
+                    border: 1px solid;
+                    border-color: var(--color-light) var(--color-light) var(--color-accent);
+                    margin-bottom: 50px;
+                }
+                
+                .order-content {
+                    width: 45%;
+                }
+                
+                .aree-cook {
+                    margin-top: 25px;
+                }
+                
+                .footer {
+                    background-color: #584B3C;
+                }
+                
+                .social-net {
+                    display: flex;
+                    align-items: center;
+                    width: 13%;
+                    justify-content: space-between;
+                }
+            </code></pre>
+            <a id="script"></a>
+            <h3>script.js</h3>
+            <pre class="content example"><code>
+                let btnOrder = document.querySelector('.btn-order')
+                let btnAbout = document.querySelector('.btn-about')
+                let btnForm = document.querySelector('.btn-form')
+                let checkbox = document.querySelector('.check-agree')
+                let agree = 0
+                btnAbout.addEventListener('click', () => {
+                alert('Вся информация доступна по номеру телефона')
+                })
+                btnOrder.addEventListener('click', () => {
+                alert('Чтобы оставить заказ заполните форму')
+                })
+                checkbox.addEventListener('click', () => {
+                if (agree == 0) {
+                agree = 1
+                }
+                else {
+                agree = 0
+                }
+                })
+                btnForm.addEventListener('click', () => {
+                if (agree == 1) {
+                alert('Ваши контактные данные приняты, ожидайте звонка')
+                }
+                else {
+                alert('Вы не дали согласие на обработку персональных данных')
+                }
+                })
+            </code></pre>
+        </section>
+    </main>
+    <footer class="task">
+        <p>2024</p>
+        <img src="./rsschool-logo.svg" alt="logo of course" class="logo">
+        <nav>
+            <a href="https://github.com/Pro100Sevchanskii">GitHab</a>
+            <a href="https://rs.school/courses/javascript-ru">JavaScript / Front-end Course</a>
+        </nav>
+    </footer>
 </body>
 
 </html>

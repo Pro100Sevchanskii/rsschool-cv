@@ -1,1 +1,118 @@
+body {
+    background-color: #ffecd7;
+}
 
+.menu {
+    display: block;
+    margin-left: 23%;
+    margin-right: 23%;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 20px;
+    text-align: justify;
+    background-color: #ffc061;
+    border-radius: 50px 250px;
+}
+
+.menu li {
+    display: inline;
+    margin: 3%;
+    padding: 3px;
+    padding-right: 1px;
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.my_information {
+    text-align: center;
+}
+
+.name {
+    font-size: 35px;
+}
+
+.portret {
+    width: 30%;
+    border-radius: 125px 250px;
+}
+
+.contacts {
+    margin-left: 23%;
+    margin-right: 23%;
+    background-color: #ffc061;
+    border-radius: 100px 40px 300px 40px;
+}
+
+.about_me {
+    margin-left: 23%;
+    margin-right: 23%;
+    padding: 3px;
+    border: 3px solid #ffc061;
+    border-radius: 100px 150px 100px 26px;
+}
+
+.my_skills {
+    margin-left: 23%;
+    margin-right: 23%;
+    border-radius: 150px 150px 30px 30px;
+}
+
+.my_skills ul {
+    margin-right: 70%;
+    color: rgb(255, 192, 97);
+    background-color: #000000;
+    border-radius: 30px 300px 20px 30px;
+}
+
+.experience {
+    margin-left: 23%;
+    margin-right: 23%;
+}
+
+.education {
+    margin-left: 23%;
+    margin-right: 23%;
+}
+
+.education ol {
+    margin-right: 24%;
+    border: 5px dotted #000000;
+    border-radius: 120px 200px 70px 10px;
+}
+
+.languages {
+    margin-left: 23%;
+    margin-right: 23%;
+}
+
+.my_code_information {
+    margin-left: 23%;
+    margin-right: 23%;
+}
+
+.content {
+    display: block;
+    font-size: 20px;
+    text-align: left;
+}
+
+.example {
+    margin-left: -15%;
+    background-color: #00000043;
+}
+
+.logo {
+    display: block;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.task {
+    display: inline;
+    text-align: center;
+}
