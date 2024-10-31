@@ -1,2 +1,1 @@
-https://github.com/Pro100Sevchanskii/rsschool-cv/blob/gh-pages/cv.md
-
+https://pro100sevchanskii.github.io/rsschool-cv/

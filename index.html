@@ -150,136 +150,262 @@
             <a id="index"></a>
             <h3>index.html</h3>
             <pre class="content example"><code>
-                &lt;!DOCTYPE html&gt;
-                &lt;html lang="ru"&gt;
-                &lt;head&gt;
-                    &lt;meta charset="UTF-8"&gt;
-                    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-                    &lt;title&gt;Family bakery&lt;/title&gt;
-                    &lt;link rel="stylesheet" href="./style.css"&gt;
-                    &lt;link rel="icon" href="/Pictures/logo.svg" type="image/x-icon"&gt;
-                &lt;/head&gt;
-                &lt;body&gt;
-                    &lt;header class="header container"&gt;
-                        &lt;a href="#about"&gt;
-                            &lt;img src="./Pictures/logo-light.svg" alt="logo-light"&gt;
-                        &lt;/a&gt;
-                        &lt;div class="header-menu">
-                            &lt;ul class="header-menu-list">
-                                &lt;li>
-                                    &lt;a href="#about">О нас&lt;/a>
-                                &lt;/li>
-                                &lt;li>
-                                    &lt;a href="#menu">Меню&lt;/a>
-                                &lt;/li>
-                                &lt;li>
-                                    &lt;a href="#order">Заказы&lt;/a>
-                                &lt;/li>
-                            &lt;/ul>
-                            &lt;div>
-                                +375(**)***-**-**
-                            &lt;/div>
-                        &lt;/div>
-                    &lt;/header>
-                    &lt;section class="hero container">
-                        &lt;a name="about">&lt;/a>
-                        &lt;div class="hero-content">
-                            &lt;h1 class="hero-title">Домашняя выпечка с душой и любовью&lt;/h1>
-                            &lt;p class="hero-description">Свежие булочки из натуральных 
-                            ингредиентов с бесплатной доставкой прямо к вашему столу&lt;/p>
-                            &lt;button class="btn btn-about">Узнать больше&lt;/button>
-                        &lt;/div>
-                        &lt;div class="hero-img">
-                            &lt;img src="./Pictures/hero.png" alt="hero-bakery">
-                        &lt;/div>
-                    &lt;/section>
-                    &lt;section class="menu container">
-                        &lt;a name="menu">&lt;/a>
-                        &lt;h2 class="menu-title">Наше меню&lt;/h2>
-                        &lt;div class="menu-content">
-                            &lt;div class="menu-item">
-                                &lt;img src="./Pictures/menu1.png" alt="img-menu-item">
-                                &lt;div class="menu-inem-content">
-                                    &lt;h3 class="title-menu-item">Кекс шоколадный&lt;/h3>
-                                    &lt;p class="description-menu-item">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing 
-                                        elit. Officiis exercitationem eveniet libero 
-                                        sapiente natus ratione laudantium. Quam illum 
-                                        eaque quia ipsam aliquid, architecto deleniti dicta 
-                                        ipsum provident eos beatae voluptas!
-                                    &lt;/p>
-                                &lt;/div>
-                            &lt;/div>
-                            &lt;div class="menu-item">
-                                &lt;img src="./Pictures/menu2.png" alt="img-menu-item">
-                                &lt;div class="menu-inem-content">
-                                    &lt;h3 class="title-menu-item">Хлеб домашний&lt;/h3>
-                                    &lt;p class="description-menu-item">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing 
-                                        elit. Officiis exercitationem eveniet libero 
-                                        sapiente natus ratione laudantium. Quam illum 
-                                        eaque quia ipsam aliquid, architecto deleniti dicta 
-                                        ipsum provident eos beatae voluptas!
-                                    &lt;/p>
-                                &lt;/div>
-                            &lt;/div>
-                            &lt;div class="menu-item">
-                                &lt;img src="./Pictures/menu3.png" alt="img-menu-item">
-                                &lt;div class="menu-inem-content">
-                                    &lt;h3 class="title-menu-item">Булочка с корицей&lt;/h3>
-                                    &lt;p class="description-menu-item">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing 
-                                        elit. Officiis exercitationem eveniet libero 
-                                        sapiente natus ratione laudantium. Quam illum 
-                                        eaque quia ipsam aliquid, architecto deleniti dicta 
-                                        ipsum provident eos beatae voluptas!
-                                    &lt;/p>
-                                &lt;/div>
-                            &lt;/div>
-                        &lt;/div>
-                        &lt;button class="btn btn-order">Заказать&lt;/button>
-                    &lt;/section>
-                    &lt;section class="order container">
-                        &lt;a name="order">&lt;/a>
-                        &lt;div class="order-content">
-                            &lt;h2 class="title-order">Приём заказов&lt;/h2>
-                            &lt;p>Оставте ваши контактные данные и мы перезвоним вам для 
-                            согласования деталей заказа&lt;/p>
-                        &lt;/div>
-                        &lt;div class="order-content">
-                            &lt;form action="url" class="form">
-                                &lt;input type="text" placeholder="Ваше имя" name="name" 
-                                class="inp-form">
-                                &lt;input type="tel" placeholder="Номер телефона" name="phone" 
-                                class="inp-form">
-                                &lt;input type="email" placeholder="E-mail" name="email" 
-                                class="inp-form">
-                                &lt;input type="submit" value="Отправить" class="btn btn-form">
-                            &lt;/form>
-                            &lt;div class="agree-cook">
-                                &lt;input type="checkbox" name="data" class="check-agree">
-                                &lt;label for="data">Согласен(а) на обработку персональных 
-                                данных&lt;/label>
-                            &lt;/div>
-                        &lt;/div>
-                    &lt;/section>
-                    &lt;footer class="footer container">
-                        &lt;img src="./Pictures/logo-dark.svg" alt="logo-dark">
-                        &lt;div class="social-net">
-                            &lt;a href="url-inst">
-                                &lt;img src="./Pictures/instagram.svg" alt="inst">
-                            &lt;/a>
-                            &lt;a href="url-facebook">
-                                &lt;img src="./Pictures/facebook.svg" alt="facebook">
-                            &lt;/a>
-                            &lt;a href="url-twit">
-                                &lt;img src="./Pictures/twitter.png" alt="twitter">
-                            &lt;/a>
-                        &lt;/div>
-                    &lt;/footer>
-                &lt;/body>
-                &lt;script src="./script.js">&lt;/script>
-                &lt;/html>
+               #include <iostream>
+#include <stdio.h>
+
+using namespace std;
+class myVector {
+private:
+    int size = 0;
+    int capacyti = 2;
+    int* a = nullptr;
+
+    void resize(int capasiti) {
+        int* b = new int[capasiti];
+        for (int i = 0; i < size; i++)
+            b[i] = a[i];
+        delete a;
+        a = b;
+
+    }
+public:
+
+    myVector() {
+        a = new int[capacyti];
+    }
+
+    void SetElemet(int q, int i) {
+        this->a[i] = q;
+    }
+
+    int GetElemet(int i) {
+        return this->a[i];
+    }
+
+
+    int GetSize() {
+        return size;
+    }
+
+    int& operator [](int index) {
+        if (index <= capacyti)
+            return a[index];
+        else
+            exit(1);
+    }
+    int  operator [](int index) const {//Для константных классов
+        if (index <= capacyti)
+            return a[index];
+        else
+            exit(1);
+    }
+    double lenthVector() {
+        double lenth = 0;
+        for (int i = 0; i < size; i++)
+            lenth += a[i] * 2;
+        lenth = sqrt(lenth);
+        return lenth;
+    }
+
+    void printVector() {
+        for (int i = 0; i < size; i++)
+            cout << a[i] << " ";
+    }
+
+    myVector(int size)
+    {
+        this->size = size;
+        capacyti = size + 2;
+        a = new int[capacyti];
+    }
+
+    void addElemets() {
+        int q = 0;
+        cout << "Print '-1' to exit";
+        cin >> q;
+        while (q != -1) {
+            if (capacyti == size + 1)
+            {
+                capacyti *= 2;
+                resize(capacyti);
+            }
+            a[size] = q;
+            size++;
+            cin >> q;
+        }
+    }
+
+    void addRandomElemets() {
+        cin >> size;
+        int q;
+        q = size / 2;
+        capacyti = pow(2, q + 1);
+        resize(capacyti);
+        for (int i = 0; i < size; i++) {
+            a[i] = rand();
+        }
+    }
+    myVector& operator +(int index) {
+        for (int i = 0; i < size; i++)
+            this->a[i] += index;
+        return *this;
+    }
+
+    myVector& operator +=(int index) {
+        for (int i = 0; i < size; i++)
+            this->a[i] += index;
+        return *this;
+    }
+    myVector& operator -(int index) {
+        for (int i = 0; i < size; i++)
+            this->a[i] -= index;
+        return *this;
+    }
+
+    myVector& operator -=(int index) {
+        for (int i = 0; i < size; i++)
+            this->a[i] -= index;
+        return *this;
+    }
+    myVector& operator *(int index) {
+        for (int i = 0; i < size; i++)
+            this->a[i] += index;
+        return *this;
+    }
+
+    myVector& operator *=(int index) {
+        for (int i = 0; i < size; i++)
+            this->a[i] += index;
+        return *this;
+    }
+    myVector& operator /(int index) {
+        if (index != 0)
+        {
+            for (int i = 0; i < size; i++)
+                this->a[i] /= index;
+            return *this;
+        }
+        else exit(1);
+    }
+
+    myVector& operator /=(int index) {
+        if (index != 0)
+        {
+            for (int i = 0; i < size; i++)
+                this->a[i] += index;
+            return *this;
+        }
+        else exit(1);
+    }
+
+    myVector& operator +(myVector& index) {
+        for (int i = 0; i < size; i++)
+            this->a[i] += index[i];
+        return *this;
+    }
+
+    myVector& operator +=(myVector& index) {
+        for (int i = 0; i < size; i++)
+            this->a[i] += index[i];
+        return *this;
+    }
+
+    myVector& operator -(myVector& index) {
+        for (int i = 0; i < size; i++)
+            this->a[i] -= index[i];
+        return *this;
+    }
+
+    myVector& operator -=(myVector& index) {
+        for (int i = 0; i < size; i++)
+            this->a[i] -= index[i];
+        return *this;
+    }
+
+    myVector& operator *(myVector& index) {
+        for (int i = 0; i < size; i++)
+            this->a[i] *= index[i];
+        return *this;
+    }
+
+    myVector& operator *=(myVector& index) {
+        for (int i = 0; i < size; i++)
+            this->a[i] *= index[i];
+        return *this;
+    }
+    myVector& operator /(myVector& index) {
+        for (int i = 0; i < size; i++)
+        {
+            if (index[i] != 0)
+                this->a[i] /= index[i];
+            else exit(1);
+        }
+        return *this;
+    }
+
+    myVector& operator /=(myVector& index) {
+        for (int i = 0; i < size; i++)
+            if (index[i] != 0)
+                this->a[i] /= index[i];
+            else exit(1);
+        return *this;
+    }
+
+    ~myVector() {
+        delete a;
+        a = nullptr;
+        size = 0;
+        capacyti = 2;
+    }
+};
+
+
+int main() {
+
+    myVector v1, v2;
+
+    v1.addElemets();
+    v2.addElemets();
+
+    int n;
+    n = v1.GetSize() + v2.GetSize();
+
+    myVector v3(n);
+
+    int i = 0;
+    int j = 0, k = 0;
+    int v1_size = v1.GetSize();
+    int v2_size = v2.GetSize();
+    while (i != n && k < v2_size && j < v1_size) {
+        if (v1.GetElemet(j) >= v2.GetElemet(k))
+        {
+            v3.SetElemet(v2.GetElemet(k), i);
+            k++;
+            i++;
+
+        }
+        else {
+            v3.SetElemet(v1.GetElemet(j), i);
+            j++;
+            i++;
+        }
+    }
+
+    if (k < v2_size)
+        while (k < v2_size) {
+            v3.SetElemet(v2.GetElemet(k), i);
+            k++;
+            i++;
+        }
+    else if (j < v1_size)
+        while (j < v1_size) {
+            v3.SetElemet(v1.GetElemet(j), i);
+            j++;
+            i++;
+        }
+    // v3+=5;
+    v3.printVector();
+}
             </code></pre>
             <a id="style"></a>
             <h3>style.css</h3>
