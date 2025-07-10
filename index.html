@@ -154,350 +154,73 @@
             </ul>
             <a id="index"><h3>index.html</h3></a>
             <pre class="content example"><code>
-                &lt;!DOCTYPE html&gt;
-                &lt;html lang="ru"&gt;
-                &lt;head&gt;
-                    &lt;meta charset="UTF-8"&gt;
-                    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-                    &lt;title&gt;Family bakery&lt;/title&gt;
-                    &lt;link rel="stylesheet" href="./style.css"&gt;
-                    &lt;link rel="icon" href="/Pictures/logo.svg" type="image/x-icon"&gt;
-                &lt;/head&gt;
-                &lt;body&gt;
-                    &lt;header class="header container"&gt;
-                        &lt;a href="#about"&gt;
-                            &lt;img src="./Pictures/logo-light.svg" alt="logo-light"&gt;
-                        &lt;/a&gt;
-                        &lt;div class="header-menu"&gt;
-                            &lt;ul class="header-menu-list"&gt;
-                                &lt;li&gt;
-                                    &lt;a href="#about"&gt;О нас&lt;/a&gt;
-                                &lt;/li&gt;
-                                &lt;li&gt;
-                                    &lt;a href="#menu"&gt;Меню&lt;/a&gt;
-                                &lt;/li&gt;
-                                &lt;li&gt;
-                                    &lt;a href="#order"&gt;Заказы&lt;/a&gt;
-                                &lt;/li&gt;
-                            &lt;/ul&gt;
-                            &lt;div&gt;
-                                +375(**)***-**-**
-                            &lt;/div&gt;
-                        &lt;/div&gt;
-                    &lt;/header&gt;
-                    &lt;section class="hero container"&gt;
-                        &lt;a name="about"&gt;&lt;/a&gt;
-                        &lt;div class="hero-content"&gt;
-                            &lt;h1 class="hero-title"&gt;Домашняя выпечка с душой и любовью&lt;/h1&gt;
-                            &lt;p class="hero-description"&gt;Свежие булочки из натуральных
-                            ингредиентов с бесплатной доставкой прямо к вашему столу&lt;/p&gt;
-                            &lt;button class="btn btn-about"&gt;Узнать больше&lt;/button&gt;
-                        &lt;/div&gt;
-                        &lt;div class="hero-img"&gt;
-                            &lt;img src="./Pictures/hero.png" alt="hero-bakery"&gt;
-                        &lt;/div&gt;
-                    &lt;/section&gt;
-                    &lt;section class="menu container"&gt;
-                        &lt;a name="menu"&gt;&lt;/a&gt;
-                        &lt;h2 class="menu-title"&gt;Наше меню&lt;/h2&gt;
-                        &lt;div class="menu-content"&gt;
-                            &lt;div class="menu-item"&gt;
-                                &lt;img src="./Pictures/menu1.png" alt="img-menu-item"&gt;
-                                &lt;div class="menu-inem-content"&gt;
-                                    &lt;h3 class="title-menu-item"&gt;Кекс шоколадный&lt;/h3&gt;
-                                    &lt;p class="description-menu-item"&gt;
-                                        Lorem ipsum dolor sit amet consectetur adipisicing
-                                        elit. Officiis exercitationem eveniet libero
-                                        sapiente natus ratione laudantium. Quam illum
-                                        eaque quia ipsam aliquid, architecto deleniti dicta
-                                        ipsum provident eos beatae voluptas!
-                                    &lt;/p&gt;
-                                &lt;/div&gt;
-                            &lt;/div&gt;
-                            &lt;div class="menu-item"&gt;
-                                &lt;img src="./Pictures/menu2.png" alt="img-menu-item"&gt;
-                                &lt;div class="menu-inem-content"&gt;
-                                    &lt;h3 class="title-menu-item"&gt;Хлеб домашний&lt;/h3&gt;
-                                    &lt;p class="description-menu-item"&gt;
-                                        Lorem ipsum dolor sit amet consectetur adipisicing
-                                        elit. Officiis exercitationem eveniet libero
-                                        sapiente natus ratione laudantium. Quam illum
-                                        eaque quia ipsam aliquid, architecto deleniti dicta
-                                        ipsum provident eos beatae voluptas!
-                                    &lt;/p&gt;
-                                &lt;/div&gt;
-                            &lt;/div&gt;
-                            &lt;div class="menu-item"&gt;
-                                &lt;img src="./Pictures/menu3.png" alt="img-menu-item"&gt;
-                                &lt;div class="menu-inem-content"&gt;
-                                    &lt;h3 class="title-menu-item"&gt;Булочка с корицей&lt;/h3&gt;
-                                    &lt;p class="description-menu-item"&gt;
-                                        Lorem ipsum dolor sit amet consectetur adipisicing
-                                        elit. Officiis exercitationem eveniet libero
-                                        sapiente natus ratione laudantium. Quam illum
-                                        eaque quia ipsam aliquid, architecto deleniti dicta
-                                        ipsum provident eos beatae voluptas!
-                                    &lt;/p&gt;
-                                &lt;/div&gt;
-                            &lt;/div&gt;
-                        &lt;/div&gt;
-                        &lt;button class="btn btn-order"&gt;Заказать&lt;/button&gt;
-                    &lt;/section&gt;
-                    &lt;section class="order container"&gt;
-                        &lt;a name="order"&gt;&lt;/a&gt;
-                        &lt;div class="order-content"&gt;
-                            &lt;h2 class="title-order"&gt;Приём заказов&lt;/h2&gt;
-                            &lt;p&gt;Оставте ваши контактные данные и мы перезвоним вам для
-                            согласования деталей заказа&lt;/p&gt;
-                        &lt;/div&gt;
-                        &lt;div class="order-content"&gt;
-                            &lt;form action="url" class="form"&gt;
-                                &lt;input type="text" placeholder="Ваше имя" name="name"
-                                class="inp-form"&gt;
-                                &lt;input type="tel" placeholder="Номер телефона" name="phone"
-                                class="inp-form"&gt;
-                                &lt;input type="email" placeholder="E-mail" name="email"
-                                class="inp-form"&gt;
-                                &lt;input type="submit" value="Отправить" class="btn btn-form"&gt;
-                            &lt;/form&gt;
-                            &lt;div class="agree-cook"&gt;
-                                &lt;input type="checkbox" name="data" class="check-agree"&gt;
-                                &lt;label for="data"&gt;Согласен(а) на обработку персональных
-                                данных&lt;/label&gt;
-                            &lt;/div&gt;
-                        &lt;/div&gt;
-                    &lt;/section&gt;
-                    &lt;footer class="footer container"&gt;
-                        &lt;img src="./Pictures/logo-dark.svg" alt="logo-dark"&gt;
-                        &lt;div class="social-net"&gt;
-                            &lt;a href="url-inst"&gt;
-                                &lt;img src="./Pictures/instagram.svg" alt="inst"&gt;
-                            &lt;/a&gt;
-                            &lt;a href="url-facebook"&gt;
-                                &lt;img src="./Pictures/facebook.svg" alt="facebook"&gt;
-                            &lt;/a&gt;
-                            &lt;a href="url-twit"&gt;
-                                &lt;img src="./Pictures/twitter.png" alt="twitter"&gt;
-                            &lt;/a&gt;
-                        &lt;/div&gt;
-                    &lt;/footer&gt;
-                &lt;/body&gt;
-                &lt;script src="./script.js"&gt;&lt;/script&gt;
-                &lt;/html&gt;
+                &lt;div class="album"&gt;
+                &lt;div class="track-signatures"&gt;
+                    &lt;p class="track-number"&gt;&#8470;&lt;/p&gt;
+                    &lt;img class="track-logo" src="" alt=""&gt;
+                    &lt;p class="track-name"&gt;Track&lt;/p&gt;
+                    &lt;p class="track-author"&gt;Author&lt;/p&gt;
+                    &lt;p class="track-album"&gt;Album&lt;/p&gt;
+                    &lt;div class="install-button"&gt;&lt;/div&gt;
+                    &lt;p class="track-time"&gt;Time&lt;/p&gt;
+                &lt;/div&gt;
+
+                &lt;div class="track"&gt;
+                    &lt;p class="track-number"&gt;1&lt;/p&gt;
+                    &lt;img class="track-logo" src="../img/image.jpg" alt="track img"&gt;
+                    &lt;p class="track-name"&gt;Темнеет&lt;/p&gt;
+                    &lt;p class="track-author"&gt;POEX&lt;/p&gt;
+                    &lt;p class="track-album"&gt;Огонь Души&lt;/p&gt;
+                    &lt;div class="install-button"&gt;
+                        &lt;button class="install-btn"&gt;&lt;img class="install-btn-img"
+                                src="../img/arrow_down_icon_188310.webp" alt=""&gt;&lt;/button&gt;
+                    &lt;/div&gt;
+                    &lt;p class="track-time"&gt;1:59&lt;/p&gt;
+                &lt;/div&gt;
             </code></pre>
             <a id="style"><h3>style.css</h3></a>
             <pre class="content example"><code>
-                @import url('https://fonts.googleapis.com/css2?family=Inter&amp;family=
-                Montserrat:wght@600&amp;family=Poppins&amp;display=swap');
-                :root {
-                    --color-accent: #EE9227;
-                    --color-light: #f5f5f5;
-                    --color-dark: #333333;
-                    --handller-font: "Montserrat", sans-serif;
-                    --main-font: "Inter", sans-serif;
-                    --menu-font: "Poppins", sans-serif;
+                .album-info {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                min-width: 1200px;
+                background-color: rgb(0, 94, 177);
+                color: rgb(255, 255, 255)
                 }
 
-                body {
-                    margin: 0;
-                    font-family: var(--main-font);
-                    color: var(--color-dark);
-                    background-color: var(--color-light);
+                .album-info:hover{
+                    background-color: rgb(0, 136, 255);
+                    transition: all 0.3s ease-in;
                 }
 
-                h1, h2 {
-                    font-family: var(--handller-font);
-                    color: var(--color-accent);
-                    font-size: 54px;
-                }
-
-                a {
-                    text-decoration: none;
-                    color: var(--color-dark);
-                }
-
-                ul {
-                    list-style: none;
-                    padding: 0px;
-
-                }
-
-                .container {
-                    padding: 0% 7%;
-                }
-
-                .btn {
-                    background-color: var(--color-accent);
-                    color: var(--color-light);
-                    font-size: 24px;
-                    padding: 15px 55px;
-                    border: none;
-                    border-radius: 16px;
-
-                    display: flex;
-                    justify-content: center;
-                }
-
-                .header,
-                .footer {
-                    min-height: 90px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: space-between;
-                }
-
-                .header-menu {
-                    display: flex;
-                    align-items: center;
-                    width: 50%;
-                    justify-content: space-between;
-                }
-
-                .header-menu-list {
-                    display: flex;
-                    padding: 0px;
-                    width: 50%;
-                    justify-content: space-between;
-                }
-
-                .hero,
-                .menu,
-                .order {
-                    min-height: 630px;
-                }
-
-                .hero {
-                    display: flex;
-                    align-items: center;
-                }
-
-                .hero-content {
-                    position: relative;
-                    float: left;
-                    z-index: 3;
-                }
-
-                .hero-description {
-                    width: 55%;
-                    margin: 50px 0px;
-                }
-
-                .hero-title {
-                    width: 70%;
-                }
-                .hero-img img {
-                    width: 100%;
-                }
-                .her-img {
-                    width: 55%;
-                    position: absolute;
-                    right: 0.5%;
-                    z-index: 1;
-                }
-                .menu {
-                    display: flex;
-                    align-items: center;
-                    justify-content: space-between;
-                    flex-direction: column;
-                    margin-bottom: 55px;
-                }
-                .menu-item {
-                    width: 32%;
-                    border-radius: 26px;
-                    border: 1px solid var(--color-accent);
-                }
-                .menu-item img {
-                    width: 100%;
-                    border-radius: 26px 26px 0px 0px;
-                }
-                .menu-item-content {
-                    padding: 10px 32px;
-                }
-                .title-menu-item {
-                    font-size: 16px;
-                    color: var(--color-accent);
-                }
-                .description-menu-item {
-                    font-size: 14px;
-                }
-                .menu-content {
-                    display: flex;
-                    align-items: center;
-                    justify-content: space-between;
-                    margin-bottom: 55px;
-                }
-                .order {
-                    display: flex;
-                    align-items: flex-start;
-                    justify-content: space-between;
-                    padding-top: 60px;
-                }
-                .form {
-                    margin: 55px 0px;
-                    display: flex;
-                    flex-direction: column;
-                }
-                .inp-form {
-                    padding: 9px;
-                    outline: none;
-                    font-size: 16px;
-                    background-color: var(--color-light);
-                    color: #8E8E8E;
-                    min-height: 30px;
-                    border: 1px solid;
-                    border-color: var(--color-light) var(--color-light) var(--color-accent);
-                    margin-bottom: 50px;
-                }
-                .order-content {
-                    width: 45%;
-                }
-                .aree-cook {
-                    margin-top: 25px;
-                }
-                .footer {
-                    background-color: #584B3C;
-                }
-                .social-net {
-                    display: flex;
-                    align-items: center;
-                    width: 13%;
-                    justify-content: space-between;
+                .album-info:hover .album-btn{
+                    background-color: rgb(0, 136, 255);
+                    transition: all 0.3s ease-in;
                 }
             </code></pre>
             <a id="script"><h3>script.js</h3></a>
             <pre class="content example"><code>
-                let btnOrder = document.querySelector('.btn-order')
-                let btnAbout = document.querySelector('.btn-about')
-                let btnForm = document.querySelector('.btn-form')
-                let checkbox = document.querySelector('.check-agree')
-                let agree = 0
-                btnAbout.addEventListener('click', () =&gt; {
-                alert('Вся информация доступна по номеру телефона')
-                })
-                btnOrder.addEventListener('click', () =&gt; {
-                alert('Чтобы оставить заказ заполните форму')
-                })
-                checkbox.addEventListener('click', () =&gt; {
-                if (agree == 0) {
-                agree = 1
+                let btn = document.getElementsByClassName('album-info');
+                for (let i = 0; i &lt; btn.length; i++) {
+                    btn[i].addEventListener('click', function() {
+                        this.classList.toggle('active');
+                        let content = this.nextElementSibling;
+                        if (content.style.maxHeight) {
+                            content.style.maxHeight = null;
+                        }
+                        else {
+                            content.style.maxHeight = content.scrollHeight + 'px';
+                        }
+                        let img = document.getElementsByClassName('album-btn-img');
+                        img[i].classList.toggle('rotate');
+                    })
                 }
-                else {
-                agree = 0
-                }
-                })
-                btnForm.addEventListener('click', () =&gt; {
-                if (agree == 1) {
-                alert('Ваши контактные данные приняты, ожидайте звонка')
-                }
-                else {
-                alert('Вы не дали согласие на обработку персональных данных')
-                }
-                })
             </code></pre>
         </section>
     </main>
     <footer class="task">
-        <p>2024</p>
+        <p>2025</p>
         <img src="./rsschool-logo.svg" alt="logo of course" class="logo">
         <nav>
             <a href="https://github.com/Pro100Sevchanskii">GitHab</a>
